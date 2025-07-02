@@ -1,0 +1,25 @@
+# Giriilen sayinin pozitif ya da negatif oldugunu ekrana yazdıran program
+
+#include <stdio.h>
+int main(){
+int sayi,pozitif,negatif,sifir;
+
+while(1){
+printf("bir sayi giriniz: ");
+scanf("%d\n",&sayi);
+
+if(sayi > 0 ){
+printf("girilen %d sayisi pozitiftir",sayi);
+ return pozitif;
+}
+else if(sayi < 0){
+printf("girilen %d sayisi negatiftir",sayi);
+ return negatif;
+ }
+ else{
+ printf("girilen %d sayisi sifirdir ",sayi);
+   return sifir;
+}
+
+return 0;
+}
