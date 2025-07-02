@@ -1,0 +1,1 @@
+# kosullu-ifadeler
